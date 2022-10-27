@@ -31,6 +31,7 @@
                 <td>:</td>
                 <td>
                     <input type="text" name="nama" id="nama">
+                    <?= form_error('nama')?>
                 </td>
             </tr>
             <tr>
